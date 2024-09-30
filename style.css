@@ -14,7 +14,7 @@ body {
     width: 300px;
 }
 
-#display {
+input[type="text"] {
     width: 100%;
     height: 40px;
     font-size: 24px;
@@ -22,6 +22,7 @@ body {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .buttons {
@@ -42,4 +43,10 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+/* Disable buttons for static display */
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
 }
