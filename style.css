@@ -44,9 +44,3 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
-/* Disable buttons for static display */
-button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-}
